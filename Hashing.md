@@ -84,7 +84,6 @@ Expected time complexity: **O(1 + λ)**
 ---
 # Rehashing in HashMaps
 
-## **What is Rehashing?**
 Rehashing is the process of **resizing and reorganizing a hashmap** when it becomes too full or inefficient due to excessive collisions.
 
 ## **Why Do We Need Rehashing?**
@@ -134,14 +133,7 @@ Now, if we insert another key (`"peach", 50`), the load factor exceeds **0.75**,
 - **Rehashing resizes the hashmap to maintain efficiency**.
 - **It happens when the load factor exceeds a threshold (like 0.75 in Java’s HashMap)**.
 - **Rehashing ensures better distribution and fewer collisions** but is computationally expensive.
-
----
-Would you like to see an implementation of rehashing in Java or Python?
----
-
-
-
-
+ ---
 
 
 ### **Hash Functions to Optimize Storage**
